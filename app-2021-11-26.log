@@ -1,0 +1,397 @@
+13:20:24.500 [restartedMain] INFO  ExternalRestApiApplication[logStarting:55] - Starting ExternalRestApiApplication on DESKTOP-HUM7LUC with PID 6596 (E:\extra\External Rest api\External-Rest-api\target\classes started by Lenovo in E:\extra\External Rest api)
+13:20:24.512 [restartedMain] INFO  ExternalRestApiApplication[logStartupProfileInfo:651] - No active profile set, falling back to default profiles: default
+13:20:25.148 [restartedMain] INFO  DevToolsPropertyDefaultsPostProcessor[logTo:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:20:25.148 [restartedMain] INFO  DevToolsPropertyDefaultsPostProcessor[logTo:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:20:28.921 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+13:20:29.593 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - Finished Spring Data repository scanning in 88ms. Found 0 JPA repository interfaces.
+13:20:33.321 [restartedMain] INFO  TomcatWebServer[initialize:108] - Tomcat initialized with port(s): 8090 (http)
+13:20:33.344 [restartedMain] INFO  Http11NioProtocol[log:173] - Initializing ProtocolHandler ["http-nio-8090"]
+13:20:33.345 [restartedMain] INFO  StandardService[log:173] - Starting service [Tomcat]
+13:20:33.346 [restartedMain] INFO  StandardEngine[log:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+13:20:33.771 [restartedMain] INFO  [/][log:173] - Initializing Spring embedded WebApplicationContext
+13:20:33.772 [restartedMain] INFO  ServletWebServerApplicationContext[prepareWebApplicationContext:285] - Root WebApplicationContext: initialization completed in 8597 ms
+13:20:34.052 [restartedMain] INFO  HikariDataSource[getConnection:110] - HikariPool-1 - Starting...
+13:20:35.324 [restartedMain] INFO  HikariDataSource[getConnection:123] - HikariPool-1 - Start completed.
+13:20:35.345 [restartedMain] INFO  H2ConsoleAutoConfiguration[lambda$h2Console$0:73] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:c24c62b1-f362-4f7e-96f6-aa6e20930e8c'
+13:20:35.845 [restartedMain] INFO  ThreadPoolTaskExecutor[initialize:181] - Initializing ExecutorService 'applicationTaskExecutor'
+13:20:36.088 [task-1] INFO  LogHelper[logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:20:36.350 [task-1] INFO  Version[logVersion:44] - HHH000412: Hibernate ORM core version 5.4.22.Final
+13:20:37.562 [task-1] INFO  Version[<clinit>:49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+13:20:38.176 [task-1] INFO  Dialect[<init>:170] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+13:20:41.015 [task-1] INFO  JtaPlatformInitiator[initiateService:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:20:41.190 [task-1] INFO  LocalContainerEntityManagerFactoryBean[buildNativeEntityManagerFactory:416] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:20:41.215 [restartedMain] WARN  JpaBaseConfiguration$JpaWebConfiguration[openEntityManagerInViewInterceptor:220] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:20:45.840 [task-2] WARN  OptionalLiveReloadServer[startServer:61] - Unable to start LiveReload server
+13:20:46.872 [restartedMain] INFO  Http11NioProtocol[log:173] - Starting ProtocolHandler ["http-nio-8090"]
+13:20:47.564 [restartedMain] WARN  AnnotationConfigServletWebServerApplicationContext[refresh:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8090 is already in use
+13:20:47.711 [restartedMain] INFO  LocalContainerEntityManagerFactoryBean[destroy:598] - Closing JPA EntityManagerFactory for persistence unit 'default'
+13:20:47.713 [restartedMain] INFO  SchemaDropperImpl$DelayedDropActionImpl[perform:526] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+13:20:47.829 [restartedMain] INFO  ThreadPoolTaskExecutor[shutdown:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+13:20:48.091 [restartedMain] WARN  DisposableBeanAdapter[destroy:267] - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+13:20:48.092 [restartedMain] INFO  HikariDataSource[close:350] - HikariPool-1 - Shutdown initiated...
+13:20:48.593 [restartedMain] INFO  HikariDataSource[close:352] - HikariPool-1 - Shutdown completed.
+13:21:05.758 [restartedMain] INFO  ExternalRestApiApplication[logStarting:55] - Starting ExternalRestApiApplication on DESKTOP-HUM7LUC with PID 8572 (E:\extra\External Rest api\External-Rest-api\target\classes started by Lenovo in E:\extra\External Rest api)
+13:21:05.776 [restartedMain] INFO  ExternalRestApiApplication[logStartupProfileInfo:651] - No active profile set, falling back to default profiles: default
+13:21:05.995 [restartedMain] INFO  DevToolsPropertyDefaultsPostProcessor[logTo:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:21:05.996 [restartedMain] INFO  DevToolsPropertyDefaultsPostProcessor[logTo:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:21:10.436 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+13:21:10.506 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - Finished Spring Data repository scanning in 42ms. Found 0 JPA repository interfaces.
+13:21:13.513 [restartedMain] INFO  TomcatWebServer[initialize:108] - Tomcat initialized with port(s): 8090 (http)
+13:21:13.549 [restartedMain] INFO  Http11NioProtocol[log:173] - Initializing ProtocolHandler ["http-nio-8090"]
+13:21:13.551 [restartedMain] INFO  StandardService[log:173] - Starting service [Tomcat]
+13:21:13.552 [restartedMain] INFO  StandardEngine[log:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+13:21:13.858 [restartedMain] INFO  [/][log:173] - Initializing Spring embedded WebApplicationContext
+13:21:13.858 [restartedMain] INFO  ServletWebServerApplicationContext[prepareWebApplicationContext:285] - Root WebApplicationContext: initialization completed in 7862 ms
+13:21:13.974 [restartedMain] INFO  HikariDataSource[getConnection:110] - HikariPool-1 - Starting...
+13:21:14.882 [restartedMain] INFO  HikariDataSource[getConnection:123] - HikariPool-1 - Start completed.
+13:21:14.898 [restartedMain] INFO  H2ConsoleAutoConfiguration[lambda$h2Console$0:73] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:c1bdf846-444a-46b5-8b7b-634d025d7255'
+13:21:15.362 [restartedMain] INFO  ThreadPoolTaskExecutor[initialize:181] - Initializing ExecutorService 'applicationTaskExecutor'
+13:21:15.620 [task-1] INFO  LogHelper[logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:21:16.443 [task-1] INFO  Version[logVersion:44] - HHH000412: Hibernate ORM core version 5.4.22.Final
+13:21:17.142 [task-1] INFO  Version[<clinit>:49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+13:21:17.627 [task-1] INFO  Dialect[<init>:170] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+13:21:18.481 [restartedMain] WARN  JpaBaseConfiguration$JpaWebConfiguration[openEntityManagerInViewInterceptor:220] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:21:19.791 [task-1] INFO  JtaPlatformInitiator[initiateService:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:21:19.814 [task-1] INFO  LocalContainerEntityManagerFactoryBean[buildNativeEntityManagerFactory:416] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:21:20.559 [task-2] WARN  OptionalLiveReloadServer[startServer:61] - Unable to start LiveReload server
+13:21:20.865 [restartedMain] INFO  Http11NioProtocol[log:173] - Starting ProtocolHandler ["http-nio-8090"]
+13:21:20.901 [restartedMain] WARN  AnnotationConfigServletWebServerApplicationContext[refresh:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8090 is already in use
+13:21:20.907 [restartedMain] INFO  LocalContainerEntityManagerFactoryBean[destroy:598] - Closing JPA EntityManagerFactory for persistence unit 'default'
+13:21:20.908 [restartedMain] INFO  SchemaDropperImpl$DelayedDropActionImpl[perform:526] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+13:21:20.916 [restartedMain] INFO  ThreadPoolTaskExecutor[shutdown:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+13:21:21.167 [restartedMain] WARN  DisposableBeanAdapter[destroy:267] - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+13:21:21.169 [restartedMain] INFO  HikariDataSource[close:350] - HikariPool-1 - Shutdown initiated...
+13:21:21.232 [restartedMain] INFO  HikariDataSource[close:352] - HikariPool-1 - Shutdown completed.
+13:21:21.243 [restartedMain] INFO  Http11NioProtocol[log:173] - Pausing ProtocolHandler ["http-nio-8090"]
+13:21:21.243 [restartedMain] INFO  StandardService[log:173] - Stopping service [Tomcat]
+13:21:21.262 [restartedMain] ERROR [/][log:175] - Failed to destroy the filter named [Tomcat WebSocket (JSR356) Filter] of type [org.apache.tomcat.websocket.server.WsFilter]
+java.lang.AbstractMethodError: null
+	at org.apache.catalina.core.ApplicationFilterConfig.release(ApplicationFilterConfig.java:301)
+	at org.apache.catalina.core.StandardContext.filterStop(StandardContext.java:4598)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5425)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:473)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:992)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.stopTomcat(TomcatWebServer.java:273)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.stop(TomcatWebServer.java:331)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:148)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.example.External.Rest.api.ExternalRestApiApplication.main(ExternalRestApiApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+13:21:21.283 [restartedMain] INFO  Http11NioProtocol[log:173] - Stopping ProtocolHandler ["http-nio-8090"]
+13:21:21.283 [restartedMain] INFO  Http11NioProtocol[log:173] - Destroying ProtocolHandler ["http-nio-8090"]
+13:21:21.322 [restartedMain] INFO  ConditionEvaluationReportLoggingListener[logMessage:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+13:21:21.333 [restartedMain] ERROR LoggingFailureAnalysisReporter[report:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+13:21:33.890 [restartedMain] INFO  ExternalRestApiApplication[logStarting:55] - Starting ExternalRestApiApplication on DESKTOP-HUM7LUC with PID 4052 (E:\extra\External Rest api\External-Rest-api\target\classes started by Lenovo in E:\extra\External Rest api)
+13:21:33.897 [restartedMain] INFO  ExternalRestApiApplication[logStartupProfileInfo:651] - No active profile set, falling back to default profiles: default
+13:21:34.528 [restartedMain] INFO  DevToolsPropertyDefaultsPostProcessor[logTo:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:21:34.529 [restartedMain] INFO  DevToolsPropertyDefaultsPostProcessor[logTo:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:21:38.377 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+13:21:38.433 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - Finished Spring Data repository scanning in 35ms. Found 0 JPA repository interfaces.
+13:21:41.307 [restartedMain] INFO  TomcatWebServer[initialize:108] - Tomcat initialized with port(s): 8090 (http)
+13:21:41.350 [restartedMain] INFO  Http11NioProtocol[log:173] - Initializing ProtocolHandler ["http-nio-8090"]
+13:21:41.353 [restartedMain] INFO  StandardService[log:173] - Starting service [Tomcat]
+13:21:41.353 [restartedMain] INFO  StandardEngine[log:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+13:21:41.770 [restartedMain] INFO  [/][log:173] - Initializing Spring embedded WebApplicationContext
+13:21:41.771 [restartedMain] INFO  ServletWebServerApplicationContext[prepareWebApplicationContext:285] - Root WebApplicationContext: initialization completed in 7240 ms
+13:21:41.918 [restartedMain] INFO  HikariDataSource[getConnection:110] - HikariPool-1 - Starting...
+13:21:42.640 [restartedMain] INFO  HikariDataSource[getConnection:123] - HikariPool-1 - Start completed.
+13:21:42.659 [restartedMain] INFO  H2ConsoleAutoConfiguration[lambda$h2Console$0:73] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ed367b8b-c948-4dd2-be85-df6d779fbca3'
+13:21:43.247 [restartedMain] INFO  ThreadPoolTaskExecutor[initialize:181] - Initializing ExecutorService 'applicationTaskExecutor'
+13:21:43.439 [task-1] INFO  LogHelper[logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:21:43.800 [task-1] INFO  Version[logVersion:44] - HHH000412: Hibernate ORM core version 5.4.22.Final
+13:21:44.305 [task-1] INFO  Version[<clinit>:49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+13:21:44.738 [task-1] INFO  Dialect[<init>:170] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+13:21:45.668 [restartedMain] WARN  JpaBaseConfiguration$JpaWebConfiguration[openEntityManagerInViewInterceptor:220] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:21:46.229 [task-1] INFO  JtaPlatformInitiator[initiateService:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:21:46.278 [task-1] INFO  LocalContainerEntityManagerFactoryBean[buildNativeEntityManagerFactory:416] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:21:46.757 [task-2] WARN  OptionalLiveReloadServer[startServer:61] - Unable to start LiveReload server
+13:21:48.341 [restartedMain] INFO  Http11NioProtocol[log:173] - Starting ProtocolHandler ["http-nio-8090"]
+13:21:48.450 [restartedMain] WARN  AnnotationConfigServletWebServerApplicationContext[refresh:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8090 is already in use
+13:21:48.460 [restartedMain] INFO  LocalContainerEntityManagerFactoryBean[destroy:598] - Closing JPA EntityManagerFactory for persistence unit 'default'
+13:21:48.461 [restartedMain] INFO  SchemaDropperImpl$DelayedDropActionImpl[perform:526] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+13:21:48.474 [restartedMain] INFO  ThreadPoolTaskExecutor[shutdown:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+13:21:48.906 [restartedMain] WARN  DisposableBeanAdapter[destroy:267] - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+13:21:48.908 [restartedMain] INFO  HikariDataSource[close:350] - HikariPool-1 - Shutdown initiated...
+13:21:48.922 [restartedMain] INFO  HikariDataSource[close:352] - HikariPool-1 - Shutdown completed.
+13:21:48.935 [restartedMain] INFO  Http11NioProtocol[log:173] - Pausing ProtocolHandler ["http-nio-8090"]
+13:21:48.936 [restartedMain] INFO  StandardService[log:173] - Stopping service [Tomcat]
+13:21:48.950 [restartedMain] ERROR [/][log:175] - Failed to destroy the filter named [Tomcat WebSocket (JSR356) Filter] of type [org.apache.tomcat.websocket.server.WsFilter]
+java.lang.AbstractMethodError: null
+	at org.apache.catalina.core.ApplicationFilterConfig.release(ApplicationFilterConfig.java:301)
+	at org.apache.catalina.core.StandardContext.filterStop(StandardContext.java:4598)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5425)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1389)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:976)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:473)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:992)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.stopTomcat(TomcatWebServer.java:273)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.stop(TomcatWebServer.java:331)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:148)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.example.External.Rest.api.ExternalRestApiApplication.main(ExternalRestApiApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+13:21:48.962 [restartedMain] INFO  Http11NioProtocol[log:173] - Stopping ProtocolHandler ["http-nio-8090"]
+13:21:48.964 [restartedMain] INFO  Http11NioProtocol[log:173] - Destroying ProtocolHandler ["http-nio-8090"]
+13:21:49.024 [restartedMain] INFO  ConditionEvaluationReportLoggingListener[logMessage:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+13:21:49.031 [restartedMain] ERROR LoggingFailureAnalysisReporter[report:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+13:22:57.746 [restartedMain] INFO  ExternalRestApiApplication[logStarting:55] - Starting ExternalRestApiApplication on DESKTOP-HUM7LUC with PID 2872 (E:\extra\External Rest api\External-Rest-api\target\classes started by Lenovo in E:\extra\External Rest api)
+13:22:57.779 [restartedMain] INFO  ExternalRestApiApplication[logStartupProfileInfo:651] - No active profile set, falling back to default profiles: default
+13:22:58.044 [restartedMain] INFO  DevToolsPropertyDefaultsPostProcessor[logTo:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:22:58.061 [restartedMain] INFO  DevToolsPropertyDefaultsPostProcessor[logTo:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:23:00.490 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:127] - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+13:23:00.552 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:187] - Finished Spring Data repository scanning in 38ms. Found 0 JPA repository interfaces.
+13:23:03.606 [restartedMain] INFO  TomcatWebServer[initialize:108] - Tomcat initialized with port(s): 8070 (http)
+13:23:03.638 [restartedMain] INFO  Http11NioProtocol[log:173] - Initializing ProtocolHandler ["http-nio-8070"]
+13:23:03.640 [restartedMain] INFO  StandardService[log:173] - Starting service [Tomcat]
+13:23:03.641 [restartedMain] INFO  StandardEngine[log:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+13:23:03.921 [restartedMain] INFO  [/][log:173] - Initializing Spring embedded WebApplicationContext
+13:23:03.922 [restartedMain] INFO  ServletWebServerApplicationContext[prepareWebApplicationContext:285] - Root WebApplicationContext: initialization completed in 5860 ms
+13:23:04.084 [restartedMain] INFO  HikariDataSource[getConnection:110] - HikariPool-1 - Starting...
+13:23:04.836 [restartedMain] INFO  HikariDataSource[getConnection:123] - HikariPool-1 - Start completed.
+13:23:04.852 [restartedMain] INFO  H2ConsoleAutoConfiguration[lambda$h2Console$0:73] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:1907eb39-dd9d-4b11-8a7b-adaee8a6b04b'
+13:23:05.241 [restartedMain] INFO  ThreadPoolTaskExecutor[initialize:181] - Initializing ExecutorService 'applicationTaskExecutor'
+13:23:05.401 [task-1] INFO  LogHelper[logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:23:05.639 [task-1] INFO  Version[logVersion:44] - HHH000412: Hibernate ORM core version 5.4.22.Final
+13:23:06.222 [task-1] INFO  Version[<clinit>:49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+13:23:06.747 [task-1] INFO  Dialect[<init>:170] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+13:23:07.487 [restartedMain] WARN  JpaBaseConfiguration$JpaWebConfiguration[openEntityManagerInViewInterceptor:220] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:23:07.712 [task-1] INFO  JtaPlatformInitiator[initiateService:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:23:07.767 [task-1] INFO  LocalContainerEntityManagerFactoryBean[buildNativeEntityManagerFactory:416] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:23:08.421 [task-2] WARN  OptionalLiveReloadServer[startServer:61] - Unable to start LiveReload server
+13:23:09.247 [restartedMain] INFO  Http11NioProtocol[log:173] - Starting ProtocolHandler ["http-nio-8070"]
+13:23:09.571 [restartedMain] INFO  TomcatWebServer[start:220] - Tomcat started on port(s): 8070 (http) with context path ''
+13:23:09.586 [restartedMain] INFO  DeferredRepositoryInitializationListener[onApplicationEvent:49] - Triggering deferred initialization of Spring Data repositories…
+13:23:09.588 [restartedMain] INFO  DeferredRepositoryInitializationListener[onApplicationEvent:53] - Spring Data repositories initialized!
+13:23:09.624 [restartedMain] INFO  ExternalRestApiApplication[logStarted:61] - Started ExternalRestApiApplication in 13.652 seconds (JVM running for 15.396)
+13:23:23.122 [http-nio-8070-exec-2] INFO  [/][log:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:23:23.123 [http-nio-8070-exec-2] INFO  DispatcherServlet[initServletBean:525] - Initializing Servlet 'dispatcherServlet'
+13:23:23.139 [http-nio-8070-exec-2] INFO  DispatcherServlet[initServletBean:547] - Completed initialization in 16 ms
+13:23:23.211 [http-nio-8070-exec-2] INFO  LoggingConfig[doFilter:35] - Request URI {}/get
+13:23:23.212 [http-nio-8070-exec-2] INFO  LoggingConfig[doFilter:36] - Request Method GET
+13:23:23.213 [http-nio-8070-exec-2] INFO  LoggingConfig[doFilter:39] - Request RequestBody {
+    "id":"Apple",
+    "color":"red"
+}
+13:23:23.221 [http-nio-8070-exec-2] INFO  LoggingConfig[doFilter:43] - Request Headers:: {
+13:23:23.223 [http-nio-8070-exec-2] INFO  LoggingConfig[doFilter:46] - content-type  : application/json
+
+13:23:23.225 [http-nio-8070-exec-2] INFO  LoggingConfig[doFilter:46] - user-agent  : PostmanRuntime/7.28.4
+
+13:23:23.226 [http-nio-8070-exec-2] INFO  LoggingConfig[doFilter:46] - accept  : */*
+
+13:23:23.226 [http-nio-8070-exec-2] INFO  LoggingConfig[doFilter:46] - postman-token  : 2ea6a230-1c88-4dca-8212-837fe525b4a7
+
+13:23:23.227 [http-nio-8070-exec-2] INFO  LoggingConfig[doFilter:46] - host  : localhost:8070
+
+13:23:23.229 [http-nio-8070-exec-2] INFO  LoggingConfig[doFilter:46] - accept-encoding  : gzip, deflate, br
+
+13:23:23.229 [http-nio-8070-exec-2] INFO  LoggingConfig[doFilter:46] - connection  : keep-alive
+
+13:23:23.230 [http-nio-8070-exec-2] INFO  LoggingConfig[doFilter:46] - content-length  : 42
+
+13:23:23.231 [http-nio-8070-exec-2] INFO  LoggingConfig[doFilter:48] - }
+
+13:23:23.847 [http-nio-8070-exec-2] INFO  Controller[getdetails:29] - Getting the configuration
+13:23:26.859 [http-nio-8070-exec-2] INFO  LoggingConfig[doFilter:57] - Response Status 200
+13:23:26.860 [http-nio-8070-exec-2] INFO  LoggingConfig[doFilter:58] - Response Body [{"headers":{"Date":["Fri, 26 Nov 2021 07:53:24 GMT"],"Content-Type":["application/json"],"Content-Length":["359"],"Connection":["keep-alive"],"Server":["gunicorn/19.9.0"],"Access-Control-Allow-Origin":["*"],"Access-Control-Allow-Credentials":["true"]},"body":{"employeeName":null,"employeeRole":null,"employeeNumber":0,"employeeLocation":null},"statusCode":"OK","statusCodeValue":200}]
+13:23:26.870 [http-nio-8070-exec-2] INFO  LoggingConfig[doFilter:61] - Response Headers:: {
+13:23:26.870 [http-nio-8070-exec-2] INFO  LoggingConfig[doFilter:64] - Content-Type  : application/json
+
+13:23:26.871 [http-nio-8070-exec-2] INFO  LoggingConfig[doFilter:64] - Transfer-Encoding  : chunked
+
+13:23:26.871 [http-nio-8070-exec-2] INFO  LoggingConfig[doFilter:64] - Date  : Fri, 26 Nov 2021 07:53:26 GMT
+
+13:23:26.872 [http-nio-8070-exec-2] INFO  LoggingConfig[doFilter:64] - Keep-Alive  : timeout=60
+
+13:23:26.873 [http-nio-8070-exec-2] INFO  LoggingConfig[doFilter:64] - Connection  : keep-alive
+
+13:25:41.647 [http-nio-8070-exec-5] INFO  LoggingConfig[doFilter:35] - Request URI {}/get
+13:25:41.680 [http-nio-8070-exec-5] INFO  LoggingConfig[doFilter:36] - Request Method GET
+13:25:41.681 [http-nio-8070-exec-5] INFO  LoggingConfig[doFilter:39] - Request RequestBody 
+13:25:41.682 [http-nio-8070-exec-5] INFO  LoggingConfig[doFilter:43] - Request Headers:: {
+13:25:41.682 [http-nio-8070-exec-5] INFO  LoggingConfig[doFilter:46] - user-agent  : PostmanRuntime/7.28.4
+
+13:25:41.682 [http-nio-8070-exec-5] INFO  LoggingConfig[doFilter:46] - accept  : */*
+
+13:25:41.682 [http-nio-8070-exec-5] INFO  LoggingConfig[doFilter:46] - postman-token  : 689373db-76e5-4137-b251-dc3dcab1d3bc
+
+13:25:41.683 [http-nio-8070-exec-5] INFO  LoggingConfig[doFilter:46] - host  : localhost:8070
+
+13:25:41.683 [http-nio-8070-exec-5] INFO  LoggingConfig[doFilter:46] - accept-encoding  : gzip, deflate, br
+
+13:25:41.684 [http-nio-8070-exec-5] INFO  LoggingConfig[doFilter:46] - connection  : keep-alive
+
+13:25:41.684 [http-nio-8070-exec-5] INFO  LoggingConfig[doFilter:48] - }
+
+13:25:41.766 [http-nio-8070-exec-5] INFO  Controller[getdetails:29] - Getting the configuration
+13:25:43.379 [http-nio-8070-exec-5] INFO  LoggingConfig[doFilter:57] - Response Status 200
+13:25:43.381 [http-nio-8070-exec-5] INFO  LoggingConfig[doFilter:58] - Response Body [{"headers":{"Date":["Fri, 26 Nov 2021 07:55:41 GMT"],"Content-Type":["application/json"],"Content-Length":["359"],"Connection":["keep-alive"],"Server":["gunicorn/19.9.0"],"Access-Control-Allow-Origin":["*"],"Access-Control-Allow-Credentials":["true"]},"body":{"employeeName":null,"employeeRole":null,"employeeNumber":0,"employeeLocation":null},"statusCode":"OK","statusCodeValue":200}]
+13:25:43.382 [http-nio-8070-exec-5] INFO  LoggingConfig[doFilter:61] - Response Headers:: {
+13:25:43.383 [http-nio-8070-exec-5] INFO  LoggingConfig[doFilter:64] - Content-Type  : application/json
+
+13:25:43.384 [http-nio-8070-exec-5] INFO  LoggingConfig[doFilter:64] - Transfer-Encoding  : chunked
+
+13:25:43.384 [http-nio-8070-exec-5] INFO  LoggingConfig[doFilter:64] - Date  : Fri, 26 Nov 2021 07:55:43 GMT
+
+13:25:43.385 [http-nio-8070-exec-5] INFO  LoggingConfig[doFilter:64] - Keep-Alive  : timeout=60
+
+13:25:43.386 [http-nio-8070-exec-5] INFO  LoggingConfig[doFilter:64] - Connection  : keep-alive
+
+13:27:16.963 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:35] - Request URI {}/post
+13:27:16.966 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:36] - Request Method POST
+13:27:16.967 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:39] - Request RequestBody {
+    "EmployeeName":"xyz",
+    "EmployeeLocation":"dvfj",
+    "EmployeeRole":"jsfjs",
+    "EmployeeNumber":13784325
+}
+13:27:16.967 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:43] - Request Headers:: {
+13:27:16.970 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:46] - content-type  : application/json
+
+13:27:16.970 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:46] - user-agent  : PostmanRuntime/7.28.4
+
+13:27:16.971 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:46] - accept  : */*
+
+13:27:16.971 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:46] - postman-token  : 1ee0cd35-2cf3-471f-8c8b-9872b530e012
+
+13:27:16.974 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:46] - host  : localhost:8070
+
+13:27:16.975 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:46] - accept-encoding  : gzip, deflate, br
+
+13:27:16.975 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:46] - connection  : keep-alive
+
+13:27:16.976 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:46] - content-length  : 123
+
+13:27:16.979 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:48] - }
+
+13:27:17.647 [http-nio-8070-exec-8] INFO  Controller[posted:46] - Adding the data
+13:27:19.019 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:57] - Response Status 200
+13:27:19.019 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:58] - Response Body {
+  "args": {}, 
+  "data": "{\"employeeName\":null,\"employeeRole\":null,\"employeeNumber\":0,\"employeeLocation\":null}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "text/plain, application/json, application/*+json, */*", 
+    "Accept-Encoding": "gzip,deflate", 
+    "Content-Length": "84", 
+    "Content-Type": "application/json", 
+    "Host": "httpbin.org", 
+    "User-Agent": "Apache-HttpClient/4.5.13 (Java/1.8.0_261)", 
+    "X-Amzn-Trace-Id": "Root=1-61a0935d-1ce4540d7098d50d2f10c552"
+  }, 
+  "json": {
+    "employeeLocation": null, 
+    "employeeName": null, 
+    "employeeNumber": 0, 
+    "employeeRole": null
+  }, 
+  "origin": "117.221.80.171", 
+  "url": "https://httpbin.org/post"
+}
+
+13:27:19.020 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:61] - Response Headers:: {
+13:27:19.021 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:64] - Date  : Fri, 26 Nov 2021 07:57:17 GMT
+
+13:27:19.021 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:64] - Connection  : keep-alive, keep-alive
+
+13:27:19.022 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:64] - Server  : gunicorn/19.9.0
+
+13:27:19.022 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:64] - Access-Control-Allow-Origin  : *
+
+13:27:19.022 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:64] - Access-Control-Allow-Credentials  : true
+
+13:27:19.023 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:64] - Content-Type  : application/json
+
+13:27:19.023 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:64] - Content-Length  : 712
+
+13:27:19.024 [http-nio-8070-exec-8] INFO  LoggingConfig[doFilter:64] - Keep-Alive  : timeout=60
+
+14:02:27.371 [SpringContextShutdownHook] INFO  LocalContainerEntityManagerFactoryBean[destroy:598] - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:02:27.637 [SpringContextShutdownHook] INFO  SchemaDropperImpl$DelayedDropActionImpl[perform:526] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+14:02:27.683 [SpringContextShutdownHook] INFO  ThreadPoolTaskExecutor[shutdown:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+14:02:28.371 [SpringContextShutdownHook] WARN  DisposableBeanAdapter[destroy:267] - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+14:02:28.465 [SpringContextShutdownHook] INFO  HikariDataSource[close:350] - HikariPool-1 - Shutdown initiated...
+14:02:28.589 [SpringContextShutdownHook] INFO  HikariDataSource[close:352] - HikariPool-1 - Shutdown completed.
